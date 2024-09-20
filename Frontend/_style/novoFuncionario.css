@@ -1,0 +1,127 @@
+body{
+    background-color: #FFFFFF;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%23b6e0fd' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%236cc1fc' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%2323a2fa' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%23057bcd' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%23034F84' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
+    max-width: 100%;
+    max-height: 100vh;
+    overflow-x: hidden;
+    background-color: #ffffff;
+}
+.divForm{
+    margin: auto 0 ;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+}
+form.form{
+    display:flex;
+    flex-direction: column;
+    height: 100%;
+    width: 40%;
+    margin: auto 0;
+    justify-content: center;
+}
+input {
+    height: 30px;
+    width: 100%;
+    padding: 5px;
+    border-radius: 2px ;
+    border: 2px solid black ;
+    margin-bottom: 10px;
+}
+select{
+    height: 30px;
+    width: 100%;
+    padding: 5px;
+    border-radius: 2px ;
+    border: 2px solid black ;
+    margin-bottom: 10px;
+}
+button {
+    
+    border: unset;
+    border-radius: 15px;
+    color: #212121;
+    z-index: 1;
+    background: #ffffff;
+    position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms;
+    overflow: hidden;
+    height: 40px;
+    width: 250px;
+    cursor: pointer;
+    
+   }
+   
+   button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color:#034F84;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(255, 255, 255, 0.27);
+    box-shadow: 4px 8px 19px -3px rgba(255, 255, 255, 0.27);
+    transition: all 250ms
+   }
+   
+   button:hover {
+    color: #e8e8e8;
+   }
+   
+   button:hover::before {
+    width: 100%;
+   }
+   button{
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+     
+   }
+   .hidden{
+    display: none;
+}
+.visible{
+    
+    display: block;
+}
+.success {
+    color:white;
+    font-weight: bold;
+    background-color: rgba(0, 128, 0, 0.432);
+    border: 2px solid green;
+    padding: 8px;
+    margin-top: 10px;
+    font-family: 18px 'inria Sans';
+    border-radius: 5px;
+  }
+  .error{
+    color:white;
+    font-weight: bold;
+    background-color: rgba(255, 0, 0, 0.432);
+    border: 2px solid red;
+    padding: 8px;
+    margin-top: 10px;
+    font-family: 18px 'inria Sans';
+    border-radius: 5px;
+  }
+  .popup{
+    position: fixed;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+    margin: auto;
+    width: 300px;
+    height: 150px;
+    padding: 20px;
+    border: solid 1px #331;
+    background: #ffffd0;
+    display: none;
+ }

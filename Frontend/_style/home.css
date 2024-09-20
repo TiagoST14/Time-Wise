@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'inriaSans', sans-serif;
+    max-height: 100vh;
+}
+body{
+    background-color: #FFFFFF;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%23b6e0fd' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%236cc1fc' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%2323a2fa' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%23057bcd' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%23034F84' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
+    max-width: 100%;
+    max-height: 100vh;
+    overflow-x: hidden;
+    background-color: #ffffff;
+}
+.head{
+    width: 100%;
+    height: 70px;
+    background-color: #034e84 ;
+    box-shadow: 0px 2px black; 
+    position: relative;  
+    display: flex;
+    justify-content: space-between; 
+    
+}
+.divAside{
+    background-color: #e7e6e6c0;
+    width: 25%;
+    height: 500px;
+    border-radius: 10px;
+    margin: 20px 0px 0px 20px;
+}
+.head img{
+    width: 8%;
+    margin-left: 20px;
+}
+.head span{
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 1px 1px black;
+    
+}
+.head button{
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    
+    border-radius: 3px;
+    letter-spacing: 1px;
+    transition: all 0.2s linear;
+    cursor: pointer;
+    border: none;
+    
+
+    height: 40px;
+    width: 100px;
+    margin-top: 1.5vh;
+    margin-right: 2vh;
+    background-color: transparent;
+    color: white;
+    border: 1.8px solid black;
+    font-size: 20px;
+    box-shadow: 2px 2px black;
+    border-radius: 10px;
+    transition: .3s;
+}
+button > svg {
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+    transition: all 0.4s ease-in;
+}
+button:hover > svg {
+    font-size: 1.5em;
+    transform: translateX(-8px);
+   }
+.head button:hover{
+    font-size: 1.2em;
+    transform: translateX(-8px);
+    scale: 1.1;
+}
+main div{
+    position: relative;
+    margin: 0 auto;
+    width: 100vw;
+    height: 70vh;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 0.1fr);
+    gap: 30px;
+    padding: 20px;
+    
+    
+    
+}
+main button{
+    border: none;
+    padding: 20px;
+    background-color: transparent;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+}
+main button:hover{
+    scale: 1.1;
+}
+div.card {
+    box-sizing: border-box;
+    width: 190px;
+    height: 254px;
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+    backdrop-filter: blur(6px);
+    border-radius: 17px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    font-weight: bolder;
+    color: black;
+    background-color:#034e84d1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .card:hover {
+    border: 1px solid black;
+    transform: scale(1.05);
+  }
+  
+  .card:active {
+    transform: scale(0.95) rotateZ(1.7deg);
+  }
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: max-content;
+    margin-top: 25vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1vh;
+    font-size: 10px;
+    text-decoration: underline;
+    font-style: italic;
+
+    
+}
+div.div_ponto{
+    background-color:#034e84d1;
+    height: 75px;
+    width: 250px;
+    margin: 0 auto;
+    border-radius: 10px;
+    transition: all 0.2s linear;
+    color: white;
+    border: solid black 2px;
+    padding: 2px;
+    cursor: pointer;
+    margin-bottom: 25px;
+}
+div.div_ponto h1{
+    text-align: center;
+    font-size: 25px;
+    padding: 3px;
+}
+div.div_res{
+    text-align: center;
+    padding: 2px,0px,2px,0px;
+    font-size: 15px;
+}
+div.div_ponto:hover{
+    background-color: #034e84;
+    scale: 1.1;
+    
+}
+div.historico_ponto{
+    display: block;
+    border-radius: 15px;
+    margin-top: 100px;
+    padding: 5px;
+    margin: 0 auto;
+    height:300px;
+    width: 800px; 
+    background-color: rgba(255, 255, 255, 0.900);
+    
+ }
+ div.header{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+ }
+ div.historico_ponto h4{
+    margin: 0 0 0 10px; 
+    font-size: 20px;
+  
+    
+ }
+ div.line{
+    margin: 0 auto;
+    width: 98%;
+    height: 1px;
+    background-color: #034e84;
+ }
+ img.clock_icon{
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+ }
+ main .dados{
+    top: 10%;
+    display: block;
+    border: black solid 1px;
+    border-radius: 5px;
+    background-color: white;
+    width: 400px;
+    height: 600px;
+    left: 50px;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    z-index: 10; /* Acima dos cards */
+
+ }
+ 

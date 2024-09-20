@@ -1,0 +1,163 @@
+:root {
+    --primary-color: #034F84;
+    --secondary-color: hsla(205, 100%, 26%, 70%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.botaoPonto {
+    height: 50px;
+    width: 100px;
+
+}
+
+.menu {
+
+    background-color: var(--secondary-color);
+    height: 100vh;
+    width: 15%;
+}
+
+div.registrar .div_ponto {
+    background-color: #034e84d1;
+    height: 75px;
+    width: 250px;
+    margin: 0 auto;
+    border-radius: 10px;
+    transition: all 0.2s linear;
+    color: white;
+    border: solid black 2px;
+    padding: 2px;
+    cursor: pointer;
+    margin-bottom: 25px;
+    margin-top: 8%;
+}
+
+.div_ponto{
+    height: 70px;
+    width: 100px;
+}
+.div_ponto h1 {
+    text-align: center;
+    font-size: 25px;
+    padding: 3px;
+}
+div.relogio h1{
+    text-align: center;
+
+}
+div.relogio{
+    margin: 0 auto;
+    margin-top: 80px;
+    position: relative;
+   
+}
+div.div_res {
+    text-align: center;
+    font-size: 500px;
+}
+.relogio .div_res{
+    font-size: 100px;
+    margin-top: 80px;
+    margin: 0 auto;
+}
+div.div_ponto:hover {
+    background-color: #034e84;
+    scale: 1.1;
+
+}
+
+div.historico_ponto {
+    display: block;
+    border-radius: 15px;
+    margin-top: 100px;
+    
+    margin: 0 auto;
+    height: 300px;
+    width: 800px;
+    background-color: rgba(255, 255, 255, 0.900);
+    border: solid black 1px;
+}
+
+div.header {
+    
+    display: flex;
+    align-items: center;
+}
+
+div.historico_ponto h4 {
+  
+    font-size: 20px;
+}
+
+div.line {
+    margin: 0 auto;
+    width: 98%;
+    height: 1px;
+    background-color: #034e84;
+    margin: 5px 0 5px;
+}
+
+img.clock_icon {
+    height: 30px;
+    width: 30px;
+    
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: max-content;
+    margin-top: 25vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1vh;
+    font-size: 10px;
+    text-decoration: underline;
+    font-style: italic;
+
+
+}
+
+div.content {
+    margin: 5% 2% ;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    width: 400px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.900);
+    z-index: 10;
+    border-radius: 15px ;
+    border: solid black 1px;
+
+}
+div.content h3{
+    text-align: center;
+    padding: 3px;
+    margin-top: 10px;
+}
+div.line_dados{
+    background-color: #034e84;
+    width: 98%;
+    height: 1px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+div.content2 {
+    right: 2%;
+    top: 19%;
+    position: absolute;
+    width: 400px;
+    height: 700px;
+    background-color: rgba(255, 255, 255, 0.900);
+    z-index: 10;
+    border-radius: 15px ;
+    border: solid black 1px;
+
+}
