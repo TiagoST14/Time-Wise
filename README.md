@@ -79,3 +79,5 @@ Este projeto é uma aplicação para gestão de ponto e recursos humanos, facili
 
 ## 📜 Licença
 Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+**PROJETO FEITO EM GRUPO** Ruan, Yuri e Vinicius
+**Faculdade Insted**
